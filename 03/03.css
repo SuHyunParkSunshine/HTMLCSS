@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    position: sticky;
+}
+
+nav {
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* padding: 10px; */
+}
+
+nav li {
+    display: inline-flex; /*중간으로 내용을 위치시킬수 있음 + justify-content & align-item함계사용*/
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    /* background-color: aliceblue; */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, nav li:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+nav a:active {
+    color: brown;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;   
+    align-items: top;         
+    background-color: skyblue;
+    margin: 10px 20px;
+    padding: 20px;
+    width: 80%;    
+    /* margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 20px; */
+}
+
+article h1 {
+    margin-right: 50px;
+}
+
+article > ul {
+    background-color: aqua;
+}
+/* #a1 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column; /*flex 사용할 때 가로 말고 세로로 배치하고 싶을 경우*/
+    /* justify-content: center;
+    align-items: left;
+} */
+
+/* #a1 > div {
+    border: 10px solid black;
+    border-radius: 25px; /*테두리를 둥글게 변경*/
+    /* width: 250px;
+    height: 340px; */
+    /* margin: 50px; */
+/* } */
+
+#a1 img {
+    border-radius: 50%;
+    width: 250px;
+    /* width: 100%; */
+}
+
+#a2 {
+    background-color: beige;
+}
+
+.c3 {
+    background-color: burlywood;
+}
+
+.c3 > h1 {
+    color: coral;
+}
+
+/* .c3 > ul > li {
+    color: deeppink;
+} */
+
+.c3 li {
+    color: deeppink;
+}
+
