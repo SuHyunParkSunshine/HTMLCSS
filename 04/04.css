@@ -1,0 +1,47 @@
+
+article > details >div {
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+}
+
+img {
+    border-radius: 50%;  
+}
+
+.c1 > div {
+    width: 30%;
+    text-align: center; 
+}
+.c1 > p {
+    width: 90%;
+}
+
+.c2 > div {
+    width: 30%;
+    text-align: center; 
+}
+.c2 > p {
+    width: 90%;
+}
+
+.c3 > div {
+    width: 30%;
+    text-align: center;    
+
+}
+.c3 > p {
+    width: 90%;
+}
+
+.c4 > div {
+    width: 30%;
+    text-align: center;  
+}
+.c4 > p {
+    width: 90%;
+}
+
+/* p {
+    margin-left: 10%;
+} */
